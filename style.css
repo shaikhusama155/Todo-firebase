@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Asap:wght@300&family=Castoro+Titling&family=Lato:ital,wght@0,300;0,400;1,400&family=Lobster&family=Lora:ital@1&family=Lugrasimo&family=Moon+Dance&family=Open+Sans:wght@300&family=Oswald:wght@300&family=Pacifico&family=Saira+Condensed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    outline: none;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 70px;
+    color: #0f0e0e;
+
+}
+span{
+    color: #fff;
+}
+body {
+    background-color: rgb(245, 208, 42);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.form-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container input {
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    width: 82%;
+}
+
+.form-container button {
+    padding: 10px 20px;
+    background-color: rgb(33, 141, 235);
+    ;
+    border: 1px solid rgb(33, 141, 235);
+    color: rgb(249, 250, 249);
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.show-container {
+    width: 50%;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    background-color: #fff;
+    justify-content: flex-start;
+    padding: 10px 30px;
+    flex-direction: column;
+}
+
+
+.show-container .main-be {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px 0;
+}
+
+.show-container .main-be button {
+    padding: 10px;
+    background-color: rgb(33, 141, 235);
+    ;
+    border: 1px solid rgb(33, 141, 235);
+    color: rgb(249, 250, 249);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
